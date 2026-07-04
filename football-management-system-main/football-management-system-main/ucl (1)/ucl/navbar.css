@@ -1,0 +1,190 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  height: 60px;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+  position: fixed;
+  z-index: 1;
+}
+
+.img_div {
+  background-image: url(./images/logo.jpeg);
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.ls_div {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.links {
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  padding-top: 12px;
+  cursor: pointer;
+}
+
+.links:hover {
+  background-color: rgb(255, 0, 0);
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.edit {
+  padding: 7px;
+  background-color: rgb(195, 141, 246);
+  border-radius: 4px;
+}
+
+.delete {
+  padding: 7px 10px;
+  background-color: rgb(255, 91, 91);
+  border-radius: 4px;
+}
+
+.edit:hover {
+  background-color: rgb(195, 141, 246, 0.8);
+}
+.delete:hover {
+  background-color: rgba(102, 18, 18, 0.8);
+}
+
+.new_btn {
+  height: 50px;
+  border-radius: 5px;
+  font-size: 22px;
+  margin: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px 10px;
+  background-color: rgb(135, 163, 255);
+  border: none;
+  cursor: pointer;
+}
+
+.new_btn:hover {
+  background-color: rgb(94, 131, 252);
+}
+
+/* form css */
+
+.forms {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.frm {
+  border-radius: 5px;
+  background-color: rgb(102, 186, 255);
+  margin-top: 30%;
+}
+
+.frm h1 {
+  background-color: rgb(25, 0, 54);
+  color: aqua;
+  border-radius: 5px 5px 0px 0px;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.entries {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  margin: 15px 5px;
+}
+
+.entries label {
+  font-size: 26px;
+  text-align: center;
+  padding-top: 2px;
+}
+
+.entries input {
+  outline: none;
+  font-size: 26px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.733);
+  color: antiquewhite;
+}
+
+element:focus {
+  outline-style: none;
+  box-shadow: none;
+  border-color: transparent;
+}
+
+.save_btn {
+  display: block;
+  margin: 10px auto;
+  padding: 3px 15px;
+  font-size: 26px;
+  background-color: rgb(7, 0, 71);
+  color: whitesmoke;
+  border-radius: 3px;
+  cursor: pointer;
+  border: none;
+}
+
+.save_btn:hover {
+  background-color: rgb(7, 0, 71, 0.8);
+}
+
+#cars {
+  outline: none;
+  font-size: 26px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.733);
+  color: antiquewhite;
+  cursor: pointer;
+}
+
+.img_alb {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: calc(100vh - 60px);
+  width: 100%;
+}
+
+.img1,
+.img2,
+.img3,
+.img4 {
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.img1 {
+  background-image: url(./images/img1.jpg);
+}
+
+.img2 {
+  background-image: url(./images/img2.jpeg);
+}
+
+.img3 {
+  background-image: url(./images/img4.jpg);
+}
+
+.img4 {
+  background-image: url(./images/img3.jpeg);
+}
